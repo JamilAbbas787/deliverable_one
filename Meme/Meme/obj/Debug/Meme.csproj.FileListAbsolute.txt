@@ -1,0 +1,7 @@
+C:\Users\jamil\Desktop\Grand Circus\Meme\Meme\bin\Debug\Meme.exe.config
+C:\Users\jamil\Desktop\Grand Circus\Meme\Meme\bin\Debug\Meme.exe
+C:\Users\jamil\Desktop\Grand Circus\Meme\Meme\bin\Debug\Meme.pdb
+C:\Users\jamil\Desktop\Grand Circus\Meme\Meme\obj\Debug\Meme.csprojAssemblyReference.cache
+C:\Users\jamil\Desktop\Grand Circus\Meme\Meme\obj\Debug\Meme.csproj.CoreCompileInputs.cache
+C:\Users\jamil\Desktop\Grand Circus\Meme\Meme\obj\Debug\Meme.exe
+C:\Users\jamil\Desktop\Grand Circus\Meme\Meme\obj\Debug\Meme.pdb
