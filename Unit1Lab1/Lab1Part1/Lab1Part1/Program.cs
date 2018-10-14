@@ -10,7 +10,7 @@ namespace Lab1Part1
     {
         static void Main(string[] args)
         {
-
+            //Enter Value One
             String inputOne;
             Console.WriteLine("Enter a 3 digit number between 100 and 999!");
             inputOne = Console.ReadLine();
@@ -18,6 +18,7 @@ namespace Lab1Part1
             int numberOne;
             bool successfulNumber = (int.TryParse(inputOne, out numberOne));
 
+            //Check Value One Input
             while (successfulNumber == false)
             {
 
@@ -74,12 +75,15 @@ namespace Lab1Part1
             }
             else { }
 
+
+            //Enter Value Two
             Console.WriteLine("Enter another 3 digit number between 100 and 999!");
             string inputTwo = Console.ReadLine();
 
             int numberTwo;
             bool succesfulNumberTwo = (int.TryParse(inputTwo, out numberTwo));
 
+            //Check of Value Two 
             while (succesfulNumberTwo == false)
             {
                 if (succesfulNumberTwo == false)
@@ -118,7 +122,8 @@ namespace Lab1Part1
             }
 
             else { }
-    
+            
+            //Check Task
             if (NumberCalc(inputOne, inputTwo))  {
                 Console.WriteLine("True");
                 Console.ReadLine();          
@@ -134,7 +139,8 @@ namespace Lab1Part1
         }
 
         public static bool NumberCalc(string valueOne, string valueTwo)
-        {
+        {   
+            //Index Inout One
             int[] inputOneBreakdown = new int[valueOne.Length];
 
             for (int i = 0; i < inputOneBreakdown.Length; i++)
@@ -147,7 +153,7 @@ namespace Lab1Part1
             int numberOneTens = inputOneBreakdown[1];
             int numberOneSingle = inputOneBreakdown[2];
 
-
+            //Index Imput Two
             int[] inputTwoBreakdown = new int[valueTwo.Length];
 
             for (int i = 0; i < inputTwoBreakdown.Length; i++)
@@ -164,7 +170,9 @@ namespace Lab1Part1
                 " number two is " + numberTwoHundreds + " number two.two " + numberTwoTens + " number two.three " + numberTwoSingle);
             Console.ReadLine(); */
 
-            if ((numberOneHundreds + numberTwoHundreds) == (numberOneTens + numberTwoTens) == (numberOneSingle == numberTwoSingle))
+            //Add Corresponding Numbers
+            if (((numberOneHundreds + numberTwoHundreds) == (numberOneTens + numberTwoTens))
+               && ((numberOneHundreds + numberTwoHundreds) == (numberOneSingle + numberTwoSingle)))
             {
                 return true;
             }
